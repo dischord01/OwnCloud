@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="ng-csp ie ie6 lte9 lte8 lte7"><![endif]-->
+<!--[if IE 7]><html class="ng-csp ie ie7 lte9 lte8 lte7"><![endif]-->
+<!--[if IE 8]><html class="ng-csp ie ie8 lte9 lte8"><![endif]-->
+<!--[if IE 9]><html class="ng-csp ie ie9 lte9"><![endif]-->
+<!--[if gt IE 9]><html class="ng-csp ie"><![endif]-->
+<!--[if !IE]><!--><html class="ng-csp"><!--<![endif]-->
+
+	<head data-requesttoken="fccc14759961e0683adc">
+		<title>
+		ownCloud		</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+		<meta name="apple-itunes-app" content="app-id=543672169">
+		<link rel="shortcut icon" href="/core/img/favicon.png" />
+		<link rel="apple-touch-icon-precomposed" href="/core/img/favicon-touch.png" />
+					<link rel="stylesheet" href="/core/css/styles.css?v=da54dd5a0398011cdfa50d559c2c0ef8" type="text/css" media="screen" />
+					<link rel="stylesheet" href="/core/css/icons.css?v=da54dd5a0398011cdfa50d559c2c0ef8" type="text/css" media="screen" />
+					<link rel="stylesheet" href="/core/css/apps.css?v=da54dd5a0398011cdfa50d559c2c0ef8" type="text/css" media="screen" />
+					<link rel="stylesheet" href="/core/css/fixes.css?v=da54dd5a0398011cdfa50d559c2c0ef8" type="text/css" media="screen" />
+					<link rel="stylesheet" href="/core/css/multiselect.css?v=da54dd5a0398011cdfa50d559c2c0ef8" type="text/css" media="screen" />
+					<link rel="stylesheet" href="/core/css/jquery-ui-1.10.0.custom.css?v=da54dd5a0398011cdfa50d559c2c0ef8" type="text/css" media="screen" />
+					<link rel="stylesheet" href="/core/css/jquery-tipsy.css?v=da54dd5a0398011cdfa50d559c2c0ef8" type="text/css" media="screen" />
+					<link rel="stylesheet" href="/core/css/jquery.ocdialog.css?v=da54dd5a0398011cdfa50d559c2c0ef8" type="text/css" media="screen" />
+							<script type="text/javascript" src="/core/js/jquery-1.10.0.min.js?v=da54dd5a0398011cdfa50d559c2c0ef8"></script>
+					<script type="text/javascript" src="/core/js/jquery-migrate-1.2.1.min.js?v=da54dd5a0398011cdfa50d559c2c0ef8"></script>
+					<script type="text/javascript" src="/core/js/jquery-ui-1.10.0.custom.js?v=da54dd5a0398011cdfa50d559c2c0ef8"></script>
+					<script type="text/javascript" src="/core/js/jquery-showpassword.js?v=da54dd5a0398011cdfa50d559c2c0ef8"></script>
+					<script type="text/javascript" src="/core/js/jquery.infieldlabel.js?v=da54dd5a0398011cdfa50d559c2c0ef8"></script>
+					<script type="text/javascript" src="/core/js/jquery.placeholder.js?v=da54dd5a0398011cdfa50d559c2c0ef8"></script>
+					<script type="text/javascript" src="/core/js/jquery-tipsy.js?v=da54dd5a0398011cdfa50d559c2c0ef8"></script>
+					<script type="text/javascript" src="/core/js/compatibility.js?v=da54dd5a0398011cdfa50d559c2c0ef8"></script>
+					<script type="text/javascript" src="/core/js/jquery.ocdialog.js?v=da54dd5a0398011cdfa50d559c2c0ef8"></script>
+					<script type="text/javascript" src="/core/js/oc-dialogs.js?v=da54dd5a0398011cdfa50d559c2c0ef8"></script>
+					<script type="text/javascript" src="/core/js/js.js?v=da54dd5a0398011cdfa50d559c2c0ef8"></script>
+					<script type="text/javascript" src="/core/js/octemplate.js?v=da54dd5a0398011cdfa50d559c2c0ef8"></script>
+					<script type="text/javascript" src="/core/js/eventsource.js?v=da54dd5a0398011cdfa50d559c2c0ef8"></script>
+					<script type="text/javascript" src="/core/js/config.js?v=da54dd5a0398011cdfa50d559c2c0ef8"></script>
+					<script type="text/javascript" src="/search/js/result.js?v=da54dd5a0398011cdfa50d559c2c0ef8"></script>
+					<script type="text/javascript" src="/core/js/router.js?v=da54dd5a0398011cdfa50d559c2c0ef8"></script>
+					<script type="text/javascript" src="/core/js/oc-requesttoken.js?v=da54dd5a0398011cdfa50d559c2c0ef8"></script>
+					<script type="text/javascript" src="/core/js/placeholder.js?v=da54dd5a0398011cdfa50d559c2c0ef8"></script>
+					<script type="text/javascript" src="/3rdparty/js/md5/md5.min.js?v=da54dd5a0398011cdfa50d559c2c0ef8"></script>
+					<script type="text/javascript" src="/core/js/jquery.avatar.js?v=da54dd5a0398011cdfa50d559c2c0ef8"></script>
+					<script type="text/javascript" src="/core/js/avatar.js?v=da54dd5a0398011cdfa50d559c2c0ef8"></script>
+					<script type="text/javascript" src="/core/js/setup.js?v=da54dd5a0398011cdfa50d559c2c0ef8"></script>
+		
+			</head>
+
+	<body id="body-login">
+		<div class="wrapper"><!-- for sticky footer -->
+			<header><div id="header">
+				<img src="/core/img/logo.svg" class="svg" alt="ownCloud" />
+				<div id="logo-claim" style="display:none;"></div>
+			</div></header>
+
+			<input type='hidden' id='hasMySQL' value='1'>
+<input type='hidden' id='hasSQLite' value='1'>
+<input type='hidden' id='hasPostgreSQL' value='1'>
+<input type='hidden' id='hasOracle' value=''>
+<input type='hidden' id='hasMSSQL' value=''>
+<form action="index.php" method="post">
+<input type="hidden" name="install" value="true" />
+					<fieldset id="adminaccount">
+		<legend>Create an <strong>admin account</strong></legend>
+		<p class="infield grouptop">
+			<input type="text" name="adminlogin" id="adminlogin" placeholder=""
+				value="" autocomplete="off" autofocus required />
+			<label for="adminlogin" class="infield">Username</label>
+			<img class="svg" src="/core/img/actions/user.svg" alt="" />
+		</p>
+		<p class="infield groupbottom">
+			<input type="password" name="adminpass" data-typetoggle="#show" id="adminpass" placeholder=""
+				value="" required />
+			<label for="adminpass" class="infield">Password</label>
+			<img class="svg" id="adminpass-icon" src="/core/img/actions/password.svg" alt="" />
+			<input type="checkbox" id="show" name="show" />
+			<label for="show"></label>
+		</p>
+	</fieldset>
+
+		<fieldset id="advancedHeader">
+		<legend><a id="showAdvanced">Advanced <img class="svg" src="/core/img/actions/caret.svg" /></a></legend>
+	</fieldset>
+	
+		<fieldset id="datadirField">
+		<div id="datadirContent">
+			<label for="directory">Data folder</label>
+			<input type="text" name="directory" id="directory"
+				placeholder="/var/www/owncloud/data"
+				value="/var/www/owncloud/data" />
+		</div>
+	</fieldset>
+	
+		<fieldset id='databaseField'>
+				<legend>Configure the database</legend>
+		<div id="selectDbType">
+				<input type='hidden' id='hasSQLite' value="true" />
+				<input type="radio" name="dbtype" value="sqlite" id="sqlite"
+			checked="checked" />
+		<label class="sqlite" for="sqlite">SQLite</label>
+				
+				<input type='hidden' id='hasMySQL' value='true'/>
+				<input type="radio" name="dbtype" value="mysql" id="mysql"
+			/>
+		<label class="mysql" for="mysql">MySQL</label>
+				
+						<label class="pgsql" for="pgsql">PostgreSQL</label>
+		<input type="radio" name="dbtype" value='pgsql' id="pgsql"
+			/>
+				
+		
+				</div>
+
+				<div id="use_other_db">
+			<p class="infield grouptop">
+				<label for="dbuser" class="infield">Database user</label>
+				<input type="text" name="dbuser" id="dbuser" placeholder=""
+					value="" autocomplete="off" />
+			</p>
+			<p class="infield groupmiddle">
+				<input type="password" name="dbpass" id="dbpass" placeholder="" data-typetoggle="#dbpassword" 
+					value="" />
+				<label for="dbpass" class="infield">Database password</label>
+				<input type="checkbox" id="dbpassword" name="dbpassword" />
+				<label for="dbpassword"></label>
+			</p>
+			<p class="infield groupmiddle">
+				<label for="dbname" class="infield">Database name</label>
+				<input type="text" name="dbname" id="dbname" placeholder=""
+					value=""
+					autocomplete="off" pattern="[0-9a-zA-Z$_-]+" />
+			</p>
+						<p class="infield groupbottom">
+				<label for="dbhost" class="infield">Database host</label>
+				<input type="text" name="dbhost" id="dbhost" placeholder=""
+					value="" />
+			</p>
+		</div>
+			</fieldset>
+	
+	<div class="buttons"><input type="submit" class="primary" value="Finish setup" data-finishing="Finishing &hellip;" /></div>
+</form>
+
+			<div class="push"></div><!-- for sticky footer -->
+		</div>
+
+		<footer>
+			<p class="info">
+				<a href="http://owncloud.org" target="_blank">ownCloud</a> – web services under your control			</p>
+		</footer>
+	</body>
+</html>
